@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack && babel-node server.js",
-    "lintjs": "eslint ./src"
+    "lintjs": "eslint ./src",
+    "lint-server": "eslint ./server.js"
   },
   "keywords": [],
   "author": "",
